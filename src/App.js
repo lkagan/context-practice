@@ -1,5 +1,5 @@
 import './App.css';
-import { useAppContext } from "./store/appConetxt";
+import { useAppContext } from "./store/appContext";
 
 function App() {
     const appCtx = useAppContext();
