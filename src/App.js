@@ -2,10 +2,10 @@ import { useAppContext } from "./store/appContext";
 
 function App() {
     const appCtx = useAppContext();
-console.log(appCtx);
+
     return (
         <div className="App">
-            {appCtx.name} is { appCtx.isLoggedIn ? "Logged In" : "Logged Out" }
+            { appCtx.name } is { appCtx.isLoggedIn ? "Logged In" : "Logged Out" }
         </div>
     );
 }
