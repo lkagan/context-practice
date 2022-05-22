@@ -1,4 +1,3 @@
-import './App.css';
 import { useAppContext } from "./store/appContext";
 
 function App() {
